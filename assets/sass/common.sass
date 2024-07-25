@@ -1,0 +1,75 @@
+// 
+// Theme Name: New Clean Template
+// Version: 3.6
+// Tags: clean, development, html5, sass, jquery, slick.js
+// Description: Clean wordpress theme with slick and visible js function
+// Author: DHL
+// Author URI: telegram @dhljob
+//
+
+:root
+    --font-size: 20px
+    --line-height: 1.5
+    --text: #1a1a1a
+    --main: #BAAE97
+    --stroke: #e0e0e0
+    --gray: #ececec
+    --brown: #BAAE97
+    --topbar: #798486
+    --menu: #1a1a1a
+
+body
+    font-family: 'Josefin Sans', sans-serif
+    font-size: var(--font-size)
+    color: var(--text)
+    line-height: var(--line-height)
+    background: #fff
+    padding: 0
+    margin: 0
+
+hr
+    background-color: #ccc
+    border: 0
+    height: 1px
+    margin-bottom: 1.5em
+a
+    color: inherit
+    text-decoration: none
+*
+    box-sizing: border-box
+
+.menu-btn
+    display: none
+
+
+@media (max-width: 768px)
+    .menu-btn
+        width: 18px
+        height: 24px
+        display: block
+        margin: 0 0 0 auto
+        position: relative
+        z-index: 9
+        cursor: pointer
+    .menu-btn-item
+        width: 100%
+        height: 2px
+        background: var(--text)
+        position: absolute
+        transition: 0.4s
+    .menu-btn-item:first-child
+        top: 4px
+    .menu-btn.active .menu-btn-item:first-child
+        transform: translateY(6px) rotate(45deg)
+    .menu-btn-item:nth-child(2)
+        top: 10px
+    .menu-btn.active .menu-btn-item:nth-child(2)
+        opacity: 0
+    .menu-btn-item:last-child
+        top: 16px
+    .menu-btn.active .menu-btn-item:last-child
+        transform: translateY(-6px) rotate(-45deg)
+
+
+@import layout/header
+@import layout/banner

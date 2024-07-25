@@ -69,7 +69,7 @@
                 <div class="col-md-3 col-12">
                     <a class="scale" href="/"><img src="<?php echo $theme_path; ?>/assets/img/96north-logo-footer.svg" width="167" alt="96north logo"></a>
                 </div>
-                <div class="col-md-9 col-12"><p>Copyright 2022, Alphawell Brands.</p></div>
+                <div class="col-md-9 col-12"><p>Copyright 2024, Alphawell Brands.</p></div>
             </div>
         </div>
     </footer>

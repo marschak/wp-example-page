@@ -1,0 +1,22 @@
+// In this file you can override the default variables of Bootstrap
+// Do you want primary to be green? Just add "$primary: #00FF00;" to this file and the theme will automatically compile the scss for you.
+
+/*-----------------------------------------------------------------------------
+
+  ATTENTION! This is the parent-theme's file. Your work will be lost by the 
+  next update!
+
+  Wouldn't you prefer to use one of our child themes and be update-safe?
+
+  alphawell-child: 
+  https://github.com/alphawell/alphawell-child/archive/refs/heads/main.zip
+
+  alphawellcommerce-child:
+  https://github.com/alphawell/alphawell-child/archive/refs/heads/main.zip
+
+-----------------------------------------------------------------------------*/
+$black:    #000;
+$primary:   $black;
+$border-radius:  0px;
+// Checkboxes
+$form-check-input-border-radius:  0px;

@@ -1,0 +1,111 @@
+.home_category {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.home_category p {
+	font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-align: center;
+    font-size: 34px;
+    margin: 0;
+}
+.home_category:hover .title {
+	display: none;
+}
+.home_category .info {
+	opacity: 0;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0s linear 0.3s;
+    position: absolute;
+}
+.home_category:hover .info {
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    opacity: 1;
+    visibility: visible;
+    transition-delay: 0s;
+}
+.info .img2 {
+	background: white;
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info .img2 img {
+	height: 80%;
+    width: auto;
+}
+.info .desc p {
+	font-size: 16px;
+    margin-top: 0;
+    line-height: 23px;
+}
+.info .desc {
+	background: #000000a8;
+    width: 50%;
+    height: 100%;
+    padding: 0px 0 0 22px;
+    display: flex;
+    font-size: 20px;
+    line-height: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid;
+    justify-content: flex-start;
+}
+.info .desc h3 {
+	color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 2.5em 0 0.4em;
+}
+.info .desc span {
+	margin-bottom: 0px;
+}
+
+.read-more__link {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 8px 23px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    color: #000;
+}
+.home-btn-light {
+    background-color: #fff;
+    color: #000;
+    font-size: 12px;
+    padding: 16px 13px;
+    font-weight: 400;
+    margin: 3em 0;
+}
